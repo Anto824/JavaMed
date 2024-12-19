@@ -1,13 +1,11 @@
-package com.nto.javamed;
+package com.nto.patientservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavaMedApplication {
-
+public class PatientServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(JavaMedApplication.class, args);
+        SpringApplication.run(PatientServiceApplication.class, args);
     }
-
 }
